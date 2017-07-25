@@ -73,7 +73,7 @@ create that function.
 //index.js
 function loadIssue() {
   var issue = {
-    state: "closed",
+    status: "closed",
     number: 5,
     created_at: "2016-03-31 16:23:13 UTC",
     body: "Instructions say GET /team and POST /newteam. Rspec wants GET/newteam and POST/team."
@@ -330,3 +330,5 @@ custom helper to move logic out of the template.
 ## Resources
 
 - [Handlebars](http://handlebarsjs.com/)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/javascript-handlebars-templates'>Handlebars Templates</a> on Learn.co and start learning to code for free.</p>
